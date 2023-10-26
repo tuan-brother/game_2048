@@ -42,6 +42,7 @@ class GameActivity : AppCompatActivity() {
 
         var nickName = PreferenceManager.getDefaultSharedPreferences(applicationContext)
             .getString(PREF_NICK_NAME, null)
+
         if (!TextUtils.isEmpty(nickName)) {
 //            mServerUtil.init(nickName, object : ValueEventListener {
 //                override fun onDataChange(var1: DataSnapshot) {
